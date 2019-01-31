@@ -37,7 +37,8 @@
                 "${workspaceRoot}/../../../addons/ofxOsc/src",
                 "${workspaceRoot}/../../../addons/ofxOsc/libs/oscpack/src/osc",
                 "${workspaceRoot}/../../../addons/ofxOsc/libs/oscpack/src/ip",
-                "/Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.0_osx_release/libs/cairo/include/cairo"
+                "/Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.0_osx_release/libs/cairo/include/cairo",
+                "/Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/addons/ofxGui/src"
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,

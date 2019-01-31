@@ -4,9 +4,15 @@
 void ofApp::setup(){	 
 	
 	ofSetVerticalSync(true);
-	ofSetCircleResolution(80);
-	ofBackground(54, 54, 54);	
+    ofBackgroundHex(0x000000);
+
+    // GUI 
+    gui.setup("PYRAMIDAL LIGHT"); // most of the time you don't need a name
+	gui.add(filled.setup("fill", true));
+	gui.add(radius.setup("radius", 250, 1, 2500));
+    bHide = false;
 	
+    // AUDIO-IN
 	soundStream.printDeviceList();
 	
 	int bufferSize = 256;
@@ -61,16 +67,26 @@ void ofApp::update(){
 	if( volHistory.size() >= 400 ){
 		volHistory.erase(volHistory.begin(), volHistory.begin()+1);
 	}
+
+    ofSetCircleResolution(90);
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
 	
-	
+    //ofBackgroundGradient(ofColor::white, ofColor::gray);
+
+	// ofFill();
+    // ofSetColor(0, 0, 0, 21); 
+    // ofDrawRectangle(0, 0, ofGetWidth(), ofGetHeight());
+
+    ofFill();
+    ofSetColor(0,0,0,11);
+    ofDrawRectangle(0,0,ofGetWidth(),ofGetHeight());
+
 	ofNoFill();
-	
-	
-	
+
+    
 	// draw the average volume:
 	ofPushStyle();
 		ofPushMatrix();
@@ -78,29 +94,24 @@ void ofApp::draw(){
 			
 		ofSetColor(225);
 		//ofDrawBitmapString("Scaled average vol (0-100): " + ofToString(scaledVol * 100.0, 0), 4, 18);
-		ofDrawRectangle(1, 1, ofGetWidth()-1, ofGetHeight()-1);
+		ofDrawRectangle(50, 50, ofGetWidth()-100, ofGetHeight()-100);
 		
-		ofSetColor(245, 58, 135);
-		ofFill();		
-		ofDrawCircle(ofGetWidth()/2, ofGetHeight()/2, scaledVol * 590.0f);
-		
-		//lets draw the volume history as a graph
-		ofBeginShape();
-		for (unsigned int i = 0; i < volHistory.size(); i++){
-			if( i == 0 ) ofVertex(i, 800);
-
-			ofVertex(i+1100, 800 - volHistory[i] * 70);
-			
-			if( i == volHistory.size() -1 ) ofVertex(i+1100, 800);
-		}
-		ofEndShape(false);		
+        if(filled){
+		    ofFill();
+	    } else {
+		    ofNoFill();
+	    }
+		//ofSetColor(245, 58, 135);	
+		ofDrawCircle(ofGetWidth()/2, ofGetHeight()/2, (scaledVol*3) * radius);
 			
 		ofPopMatrix();
 	ofPopStyle();
 	
 	drawCounter++;
-	
-		
+
+    if(!bHide){
+		gui.draw();
+	}
 }
 
 //--------------------------------------------------------------
@@ -136,6 +147,11 @@ void ofApp::audioIn(ofSoundBuffer & input){
 
 //--------------------------------------------------------------
 void ofApp::keyPressed  (int key){ 
+    
+    if(key == 'h'){
+		bHide = !bHide;
+	}
+
 	if( key == 's' ){
 		soundStream.start();
 	}

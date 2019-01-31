@@ -1,6 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
+#include "ofxGui.h"
 
 class ofApp : public ofBaseApp{
 	
@@ -25,4 +26,17 @@ class ofApp : public ofBaseApp{
 		float scaledVol;
 		
 		ofSoundStream soundStream;
+
+
+		// GUI
+
+		void circleResolutionChanged(int & circleResolution);
+		//void ringButtonPressed();
+		void checkSound(int & soundIn);
+
+		bool bHide;
+		ofxFloatSlider radius;
+		ofxToggle filled;
+
+		ofxPanel gui;
 };

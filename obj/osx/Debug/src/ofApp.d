@@ -821,7 +821,18 @@ obj/osx/Debug/src/ofApp.o: \
   /Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/libs/openFrameworks/video/ofAVFoundationVideoPlayer.h \
   /Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/libs/openFrameworks/3d/of3dUtils.h \
   /Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/libs/openFrameworks/3d/ofCamera.h \
-  /Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/libs/openFrameworks/3d/ofEasyCam.h
+  /Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/libs/openFrameworks/3d/ofEasyCam.h \
+  /Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/addons/ofxGui/src/ofxGui.h \
+  /Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/addons/ofxGui/src/ofxToggle.h \
+  /Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/addons/ofxGui/src/ofxBaseGui.h \
+  /Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/addons/ofxGui/src/ofxSlider.h \
+  /Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/addons/ofxGui/src/ofxInputField.h \
+  /Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/addons/ofxGui/src/ofxSliderGroup.h \
+  /Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/addons/ofxGui/src/ofxGuiGroup.h \
+  /Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/addons/ofxGui/src/ofxButton.h \
+  /Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/addons/ofxGui/src/ofxLabel.h \
+  /Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/addons/ofxGui/src/ofxColorPicker.h \
+  /Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/addons/ofxGui/src/ofxPanel.h
 
 /Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/apps/vscode_oF/PyramidalLight/src/ofApp.h:
 
@@ -2466,3 +2477,25 @@ obj/osx/Debug/src/ofApp.o: \
 /Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/libs/openFrameworks/3d/ofCamera.h:
 
 /Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/libs/openFrameworks/3d/ofEasyCam.h:
+
+/Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/addons/ofxGui/src/ofxGui.h:
+
+/Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/addons/ofxGui/src/ofxToggle.h:
+
+/Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/addons/ofxGui/src/ofxBaseGui.h:
+
+/Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/addons/ofxGui/src/ofxSlider.h:
+
+/Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/addons/ofxGui/src/ofxInputField.h:
+
+/Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/addons/ofxGui/src/ofxSliderGroup.h:
+
+/Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/addons/ofxGui/src/ofxGuiGroup.h:
+
+/Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/addons/ofxGui/src/ofxButton.h:
+
+/Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/addons/ofxGui/src/ofxLabel.h:
+
+/Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/addons/ofxGui/src/ofxColorPicker.h:
+
+/Users/WILLPOWERSTUDIOS/Dropbox/Dev/OpenFrameworks/of_v0.10.1_osx_release/addons/ofxGui/src/ofxPanel.h:
